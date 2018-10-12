@@ -1,0 +1,86 @@
+.anim-icons .icon.now-in-view{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+   -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .icon-twist.now-in-view,
+.sec-title .sub-title.now-in-view,
+.pricing-section .sub-title.now-in-view,
+.info-section h2.now-in-view,
+.fact-counter-section .icon-twist-2.now-in-view,
+.features-tab-section h2.now-in-view,
+.shop-banner-section .icon-dots-6.now-in-view{
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.team-section .icon-dots-9.now-in-view,
+.news-section .icon-twist-6.now-in-view{
+  -webkit-animation-name: zoomInStable;
+  animation-name: zoomInStable;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .icon-star.now-in-view,
+.about-us .icon-dots-8.now-in-view,
+.icon-star-4.now-in-view,
+.about-section-two .icon-twist-5.now-in-view,
+.banner-section .image-column .image-box.now-in-view,
+.services-section .icon-twist-3.now-in-view,
+.fact-counter-section .icon-block-2.now-in-view,
+.shop-banner-section .icon-two-lines.now-in-view{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .icon-block.now-in-view,
+.info-section .icon-block.now-in-view,
+.get-ready-section .icon-star-3.now-in-view,
+.news-block-five .inner-box.now-in-view:after,
+.features-tab-section .title.now-in-view{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .icon-dots.now-in-view,
+.who-we-are .icon-dots-10.now-in-view,
+.info-section .icon-dots-8.now-in-view,
+.get-ready-section .icon-twist-5.now-in-view,
+.news-block-five .inner-box.now-in-view:before,
+.page-title.style-two .icon-dots-14.now-in-view,
+.fact-counter-section .icon-star-2.now-in-view,
+.shop-banner-section .icon-twist-4.now-in-view{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
