@@ -14,6 +14,34 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="theme-color" content="#941ee4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('xz5msy66tw4s');
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -292,6 +320,20 @@
                     </div>
                 </div>
 
+                <div class="team-block col-md-3 col-sm-6 col-xs-12">
+                    <div class="image-box">
+                        <img src="images/gustavo.jpeg" alt="">
+                        <div class="overlay-box">
+                            <h3>Gustavo Maes</h3>
+                            <h4>Fullstack Developer</h4>
+                            <ul class="social-icons">
+                                <li><a href="https://www.linkedin.com/in/gustavo-osvaldo-maes-4201145a"><span class="fa fa-linkedin-square"></span></a></li>
+                                <li><a href="https://github.com/gustavomaes"><span class="fa fa-github-square"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Team Block -->
                 <div class="team-block col-md-3 col-sm-6 col-xs-12">
                     <div class="image-box">
@@ -460,9 +502,9 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Scroll to top-->
+<!--Scroll to to
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
-
+p-->
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.fancybox.js"></script>
